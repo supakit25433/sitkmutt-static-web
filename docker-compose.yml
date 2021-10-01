@@ -1,0 +1,6 @@
+services:
+  staticweb:
+    build: .
+    image: ghcr.io/supakit25433/static-web:dev
+    ports:
+      - "8080:80"
